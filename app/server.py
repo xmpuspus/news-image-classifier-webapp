@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
-export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1S2Lty5_lnRxMvwW5G5TAXAl-K9JVa4cI'
+export_file_name = 'news_model_v1'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['bad', 'good', 'viral', 'fake', 'science', 'tech']
 path = Path(__file__).parent
 
 app = Starlette()
